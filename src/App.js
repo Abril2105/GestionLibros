@@ -1,7 +1,10 @@
+import Head from "./Components/top";
 import "./App.css";
 
-function App() {
-  return <div className="App"></div>;
+export default function App() {
+  return (
+    <div className="App">
+      <Head />
+    </div>
+  );
 }
-
-export default App;
